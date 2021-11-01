@@ -1,0 +1,65 @@
+baseURL = "https://layla.dev"
+title = "Layla"
+languageCode= "en-us"
+defaultContentLanguage= "en"
+theme = "mediumish"
+summaryLength = 25
+copyright = "Layla - All rights reserved"
+enableEmoji = true
+publishDir = "public"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="Layla is a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
+ 
+
+
+[params.index]
+  picture = "/images/women.png"
+  title = "Layla"
+  subtitle = "Layla is a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
+  alertbar = false
+
+[params.social]
+  github = "Layla-p"
+  linkedin = "layla-p"
+  twitter = "laylacodesit"
+  twitch = "laylacodesit"
+
+## Main Menu
+[[menu.main]]
+    name = "Blogs"
+    weight = 200
+    identifier = "blogs"
+    url = "/blogs"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/about"
+[[menu.main]]
+    name = "Snippets"
+    identifier = "snippets"
+    weight = 600
+    url = "/snippets"
+[[menu.main]]
+    name = "Appearances"
+    identifier = "appearances"
+    weight = 300
+    url = "/appearances"
+[[menu.main]]
+    name = "Abstracts"
+    identifier = "abstracts"
+    weight = 500
+    url = "/abstracts"
+[[menu.main]]
+    name = "Video"
+    identifier = "video"
+    weight = 600
+    url = "/video"
+# [[menu.main]]
+#     name = "Media"
+#     identifier = "media"
+#     weight = 600
+#     url = "/media"

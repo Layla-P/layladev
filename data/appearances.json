@@ -1,0 +1,43 @@
+{
+    "events":[ {
+        "name": "title three",
+        "date": "2022-05-31",
+        "url": "http://some.com",
+        "details":"some details",
+        "appearances":["virtual"],
+        "type": "virtual"
+    },
+    {
+       "name": "title one",
+       "date": "2022-05-01",
+       "url": "http://some.com",
+       "details":"some details",
+       "appearances":["virtual"],
+       "type": "stream"
+   },
+    {
+        "name": "title two",
+        "date": "2022-06-01",
+        "url": "http://some.com",
+        "details":"some details",
+        "appearances":["virtual"],
+        "type": "virtual"
+    },
+    {
+        "name": "title four",
+        "date": "2022-06-06",
+        "url": "http://some.com",
+        "details":"some details",
+        "appearances":["podcast"],
+        "type": "podcast"
+    },
+    {
+        "name": "title five",
+        "date": "2021-07-06",
+        "url": "http://some.com",
+        "details":"some details",
+        "appearances":["in-person"],
+        "type": "in-person"
+    }]
+
+}

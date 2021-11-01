@@ -1,0 +1,25 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{ if eq .Type "workshop" }}
+    <h2><span>Workshops</span></h2>
+    {{ else if  eq .Type "appearance" }}
+        {{- partial "list-partials/appearances-list.html" . -}}
+    {{ else if  eq .Type "abstracts" }}
+        {{- partial "list-partials/abstract-list.html" . -}}
+    {{ else if  eq .Type "snippets" }}
+        {{- partial "list-partials/snippet-list.html" . -}}
+    {{ else }}
+    {{- partial "list-partials/blog-list.html" . -}}
+    </div>
+    {{- partial "_shared/alertbar.html" . -}}
+    {{end}}
+{{end}}
+{{ define "footer"}}
+    {{ if eq .Type "blog" }}
+    {{- partial "_shared/jumbotron.html" . -}}
+    {{end}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}
