@@ -5,16 +5,16 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     {{ if ($t.Before now) }}
     <div class="card bg-light">
-        <div class="card-header">{{time.Format "January 2 2006" $t }}</div>
+        <div class="card-header card-light">{{time.Format "January 2 2006" $t }}</div>
     {{else}}
     <div class="card bg-light {{.type}}">
         <div class="card-header {{.type}}">{{time.Format "January 2 2006" $t }}</div>
     {{ end }}
    
         <div class="card-body">
-            <h5 class="card-title">{{ .name }}</h5>           
+            <a href="{{.url}}" class="card-link" target="_blank"><h5 class="card-title">{{ .name }}</h5></a>         
             <p class="card-text">{{.details}}</p>
-            <a href="{{.url}}" class="card-link" target="_blank">{{.url}}</a>
+            <!-- <a href="{{.url}}" class="card-link" target="_blank">{{.url}}</a> -->
             <div class="after-post-tags">
                 <ul class="tags short">
                 {{ range .appearances }}

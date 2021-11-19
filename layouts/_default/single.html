@@ -46,7 +46,11 @@
                     {{/*  {{$images := .Resources.ByType "image"}}
                     {{with $images.GetMatch "*cover*" }}  */}}
                         {{/*  <img class="featured-image img-fluid" src="{{ .Permalink }}" alt="thumbnail for this post">  */}}
+                        {{if .Params.image}}
                         <img class="featured-image img-fluid" src="{{ .Params.image }}" alt="thumbnail for this post">
+                        {{else if .Params.aboutimage}}
+                        <img class="d-flex justify-content-center mb-3 " src="{{ .Params.aboutimage }}" alt="{{.Params.name}}">
+                        {{ end }}
                     {{/*  {{end}}  */}}
                     <!-- End Featured Image -->
 

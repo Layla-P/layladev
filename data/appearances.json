@@ -1,41 +1,49 @@
 {
     "events":[ {
-        "name": "title three",
-        "date": "2022-05-31",
-        "url": "http://some.com",
-        "details":"some details",
-        "appearances":["virtual"],
+        "name": "Cloud and Containers Live",
+        "date": "2021-11-15",
+        "url": "https://live360events.com/Events/Orlando-2021/Sessions/Tuesday/CCT05-Azure-Functions-A-Guide-to-Getting-Started.aspx",
+        "details":"Azure Functions: a guide to getting started",
+        "appearances":["virtual","conference"],
         "type": "virtual"
     },
     {
-       "name": "title one",
-       "date": "2022-05-01",
-       "url": "http://some.com",
-       "details":"some details",
-       "appearances":["virtual"],
-       "type": "stream"
+       "name": "Build Stuff",
+       "date": "2021-11-17",
+       "url": "https://www.buildstuff.events",
+       "details":"TDD and the Terminator: an introduction to test driven development",
+       "appearances":["virtual","conference"],
+       "type": "virtual"
    },
     {
-        "name": "title two",
-        "date": "2022-06-01",
-        "url": "http://some.com",
-        "details":"some details",
-        "appearances":["virtual"],
+        "name": "NDC Oslo",
+        "date": "2021-12-02",
+        "url": "https://ndcoslo.com/",
+        "details":"Learning in public : livecoding on twitch",
+        "appearances":["conference"],
+        "type": "in-person"
+    },
+    {
+        "name": "CodeCamp Romania",
+        "date": "2021-12-09",
+        "url": "https://codecamp.ro/",
+        "details":"Details to follow",
+        "appearances":["virtual", "conference"],
         "type": "virtual"
     },
     {
-        "name": "title four",
-        "date": "2022-06-06",
-        "url": "http://some.com",
-        "details":"some details",
-        "appearances":["podcast"],
-        "type": "podcast"
+        "name": "Developer! Developer! Developer!",
+        "date": "2021-11-27",
+        "url": "https://www.developerdeveloperdeveloper.com/",
+        "details":"Understanding microservices : a guide for the monolithic developer",
+        "appearances":["virtual", "conference"],
+        "type": "virtual"
     },
     {
-        "name": "title five",
-        "date": "2021-07-06",
-        "url": "http://some.com",
-        "details":"some details",
+        "name": "NDC London",
+        "date": "2022-01-28",
+        "url": "https://ndclondon.com/",
+        "details":"Azure Functions: a guide to getting started",
         "appearances":["in-person"],
         "type": "in-person"
     }]

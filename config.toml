@@ -11,14 +11,15 @@ publishDir = "public"
 
 [params]
   logo = "/images/logo.png"
-  description ="Layla is a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
+  hello = "Hello! I'm Layla"
+  description ="I'm a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
  
 
 
 [params.index]
-  picture = "/images/women.png"
-  title = "Layla"
-  subtitle = "Layla is a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
+  picture = "/images/layla-self.jpg"
+  title = "Hello! I'm Layla"
+  subtitle = "I'm a developer advocate, live coder, international speaker, Microsoft MVP, and a GitHub Star."
   alertbar = false
 
 [params.social]
@@ -28,11 +29,11 @@ publishDir = "public"
   twitch = "laylacodesit"
 
 ## Main Menu
-[[menu.main]]
-    name = "Blogs"
-    weight = 200
-    identifier = "blogs"
-    url = "/blogs"
+# [[menu.main]]
+#     name = "Blogs"
+#     weight = 200
+#     identifier = "blogs"
+#     url = "/blogs"
 [[menu.main]]
     name = "About"
     identifier = "about"
@@ -53,11 +54,11 @@ publishDir = "public"
     identifier = "abstracts"
     weight = 500
     url = "/abstracts"
-[[menu.main]]
-    name = "Video"
-    identifier = "video"
-    weight = 600
-    url = "/video"
+# [[menu.main]]
+#     name = "Video"
+#     identifier = "video"
+#     weight = 600
+#     url = "/video"
 # [[menu.main]]
 #     name = "Media"
 #     identifier = "media"

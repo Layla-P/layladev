@@ -10,12 +10,14 @@ body {
     border-top: 4px solid #ff979e;
     margin-bottom: 0;
     position: fixed;
+    box-shadow: 0 -5px 10px #555;
 }
 
 .blog-box {
     background-color: #fff;
     border: 1px solid #333;
     border-top-right-radius: 15px;
+    box-shadow: 15px 10px 10px #333;
 }
 
 .mainheading {
@@ -67,10 +69,27 @@ ul.tags li a {
 
 .navbar {
     border-bottom: 4px solid #ff979e;
+    box-shadow: 0 6px 10px #555;
+    padding: 0rem 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #600c00;
+}
+.navbar-brand {
+padding-top:0;
+padding-bottom:0;
+}
+
+.navbar-brand-title{
+    font-family:'Rock Salt';
+    font-size: x-large;
+    color: #600c00;
+}
+
+.mediumnavigation .navbar-brand img {
+    max-height: 70px;
+    margin-right: 5px;
 }
 
 ul.tags li span {
@@ -87,9 +106,12 @@ ul.tags li span {
 .card {
     color: #600c00;
     background-color: #fff;
-    border: 1px solid #333;
+    /* border: 3px solid #333; */
     border-top-right-radius: 15px;
+    box-shadow: 5px 10px 5px #333;
 }
+
+
 
 .maxthumb {
     border-top-right-radius: 15px;
@@ -97,7 +119,12 @@ ul.tags li span {
 
 .card.card-dark {
     color: #fff;
-    background-color: #333;
+    background-color: #666;
+}
+
+.card.card-extra-dark {
+    color: #fff;
+    background-color: #444;
 }
 
 .card-footer {
@@ -108,49 +135,63 @@ ul.tags li span {
     color: #600c00;
 }
 
+.card-header{
+    color: white;
+    font-weight: 600;
+}
+
+.card-header.card-light{
+    color: #600c00;
+    font-weight: 600; 
+}
 .card-header.virtual {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(42, 115, 241, 0.1);
-    border-bottom: 1px solid rgba(42, 115, 241, .3);
+    background-color: #ff979e;
+    /* border-bottom: 1px solid rgba(80, 107, 153, 0.3); */
+    border-top-right-radius: 15px;
 }
 
-.bg-light.virtual {
-    background-color: rgba(42, 115, 241, 0.05)!important;
-}
+/* .bg-light.virtual {
+    background-color:  #eaeaea!important;
+} */
 
 .card-header.podcast {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(241, 42, 158, 0.1);
-    border-bottom: 1px solid rgba(241, 42, 158, .3);
+    background-color: #600c00;
+    /* border-bottom: 1px solid rgba(241, 42, 158, .3); */
+    border-top-right-radius: 15px;
 }
 
-.bg-light.podcast {
+/* .bg-light.podcast {
     background-color: rgba(241, 42, 158, 0.05)!important;
-}
+} */
 
 .card-header.in-person {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(98, 241, 42, 0.1);
-    border-bottom: 1px solid rgba(98, 241, 42, .3);
+    background-color: rgb(35, 59, 35);
+    /* border-bottom: 1px solid rgba(98, 241, 42, .3); */
+    border-top-right-radius: 15px;
 }
 
-.bg-light.in-person {
+/* .bg-light.in-person {
     background-color: rgba(98, 241, 42, 0.05)!important;
-}
+} */
 
 .card-header.stream {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(189, 22, 240, 0.212);
-    border-bottom: 1px solid rgba(189, 22, 240, .3);
+    background-color: #6441a5;
+    /* border-bottom: 1px solid rgba(189, 22, 240, .3); */
+    border-top-right-radius: 15px;
 }
 
-.bg-light.stream {
+/* .bg-light.stream {
     background-color: rgba(189, 22, 240, 0.05)!important;
-}
+} */
+
 
 ul.tags.short {
     list-style: none;
@@ -172,8 +213,14 @@ ul.tags.short {
 .index-sub,
 .social-icon {
     color: #fff;
+    margin:4px;
 }
 
 .index-title {
     font-family: 'Rock Salt', cursive;
+    font-size:3rem;
+}
+
+.about{
+    max-height: 300px;
 }
