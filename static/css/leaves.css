@@ -1,0 +1,15 @@
+:root {
+    --dark-green: #333c37;
+    --bright-green: #d5d901;
+    --pink: #ff92ad;
+    --med-green: #928d2a;
+    --aqua: #64cebf;
+    --pale-green: #c6c79c;
+    --yellow: #e5cf01;
+  }
+
+  body {
+    background: url(/images/design/1x/tile-2.png) repeat 0 0;
+    color: var(--bright-green);
+    font-family: 'Raleway', sans-serif;
+}

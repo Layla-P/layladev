@@ -1,13 +1,26 @@
+:root {
+    --dark-green: #333c37;
+    --bright-green: #c7d53c;
+    --pink: #ff92ad;
+    --med-green: #928d2a;
+    --aqua: #64cebf;
+    --pale-green: #c6c79c;
+    --yellow: #e5cf01;
+  }
+  
+
 body {
-    background-color: rgb(98, 98, 98);
-    color: #ff979e;
+    /* background-color: var(--dark-green); */
+    background-image: url(\images\design\0.5x\tile-sm.png);
+    background-repeat: repeat;
+    color: var(--bright-green);
     font-family: 'Raleway', sans-serif;
 }
 
 .footer {
-    background-color: #333;
+    background-color: var(--dark-green);
     color: #fff;
-    border-top: 4px solid #ff979e;
+    border-top: 4px solid var(--pink);
     margin-bottom: 0;
     position: fixed;
     box-shadow: 0 -5px 10px #555;
