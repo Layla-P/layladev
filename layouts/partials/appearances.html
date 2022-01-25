@@ -1,0 +1,38 @@
+{{ $events := slice }}
+{{ range .events }}
+{{ $event := . }}
+{{ $parsedEvent := dict }}
+{{ range $k, $v := $event }}
+{{ if eq $k "date" }}
+{{ $parsedEvent = merge $parsedEvent (dict $k (time $v)) }}
+{{ else }}
+{{ $parsedEvent = merge $parsedEvent (dict $k $v) }}
+{{ end }}
+{{ end }}
+{{ $events = $events | append $parsedEvent }}
+{{ end }}<!-- Items -->
+
+<section class="wrapper style1 align-center" id="Appearances">
+    <div class="inner">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        <!-- {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }} -->
+    <h3>Upcoming</h3>
+        <div class="items {{ .style }}">                       
+            {{ range sort $events "date" "desc" }}            
+
+            {{ if (.date.After now) }}           
+            {{ partial "appearance" . }}
+            {{ end }}
+            {{end}}
+        </div>
+        <h3>Previous</h3>
+        <div class="items {{ .style }}">
+            {{ range sort $events "date" "desc" }}
+
+            {{ if (.date.Before now) }}
+            {{ partial "appearance" . }}
+            {{ end }}
+            {{end}}
+        </div>
+    </div>
+</section>

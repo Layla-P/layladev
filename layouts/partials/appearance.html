@@ -1,0 +1,7 @@
+{{ $t := .date }}
+<section>
+    <span class="icon {{ .style }}"></span>
+    <h3>{{ .name }}</h3>
+    <h5> {{time.Format "January 2 2006" $t }}</h5>
+    <p>{{ .details }}</p>
+</section>

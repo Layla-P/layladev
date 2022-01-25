@@ -1,0 +1,12 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+title : "About me"
+id: "about"
+content: |
+  In case you hadn’t guessed it - I’m Layla and I’m a self-taught .NET developer! Well that’s not strictly true - so many people have helped me get to where I am today. This is one of the reasons I really love what I do. I love to give back to the community, and I do that in many different ways.
+button: 
+  label: "Connecting with me"
+  link: "#contact"
+image: 
+  imagepath: "images/layla-porter-cover.jpg"
+  imagealt: ""

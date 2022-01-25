@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Hi, I'm Layla"
+subtitle: |
+  
+content : |
+  I'm a Developer Advocate at VMware. I'm also a Live Coder on Twitch, Microsoft MVP,GitHub Star, and the founder of the #WomenOfDotNet Initiative.
+button:
+  label : "About me"
+  link : "#about"
+button2:
+  label : "Upcoming appearances"
+  link : "#Appearances"
+image : "images/layla-headshot.png"

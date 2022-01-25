@@ -1,0 +1,10 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "contact"
+title : "Connecting with me"
+content: |
+  If you would like to collaborate with me, for me to speak at your event/meetup or you’re a new developer/devrelian and you’d like some help/mentorship - then please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLScj9TuqRBOblAsp02B_r9uvNVSaUfKp5nX7hbV2RjYtqBjAkQ/viewform">form</a>.
+
+image: 
+  imagepath: "images/hello.jpg"
+  imagealt: "Photo by Meruyert Gonullu from Pexels"
