@@ -1,0 +1,18 @@
+<section class="wrapper style1">
+    <div class="inner">
+    <header>
+        <h3>{{.title}}</h3>
+    </header>
+    <div class="content">
+
+        <dl>
+            {{ range .definitions }}  
+            <dt>{{.title}}</dt>
+            <dd>
+                <p>{{.content}}</p>
+            </dd>   
+            {{end}}        
+        </dl>
+    </div>
+    </div>
+</section>

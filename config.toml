@@ -1,8 +1,20 @@
+name = "Layla"
+
+homepage = "https://layla.dev"
+
+min_version = "0.67.3 Extended"
+tags = ["appearances","tips","streams","video",]
+features = ["font-awesome","favicon","one-page","responsive","sass","scss"]
+
+license = "Creative Commons"
+licenselink = "https://github.com/caressofsteel/hugo-story/blob/master/LICENSE"
+
+
 baseURL = "https://layla.dev"
 title = "Layla"
 languageCode= "en-us"
 defaultContentLanguage= "en"
-theme = "mediumish"
+theme = "hugo-story"
 summaryLength = 25
 copyright = "Layla - All rights reserved"
 enableEmoji = true
@@ -27,40 +39,10 @@ publishDir = "public"
   linkedin = "layla-p"
   twitter = "laylacodesit"
   twitch = "laylacodesit"
+  tiktok = "laylacodesit"
 
-## Main Menu
-# [[menu.main]]
-#     name = "Blogs"
-#     weight = 200
-#     identifier = "blogs"
-#     url = "/blogs"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 100
-    url = "/about"
-[[menu.main]]
-    name = "Snippets"
-    identifier = "snippets"
-    weight = 600
-    url = "/snippets"
-[[menu.main]]
-    name = "Appearances"
-    identifier = "appearances"
-    weight = 300
-    url = "/appearances"
-[[menu.main]]
-    name = "Abstracts"
-    identifier = "abstracts"
-    weight = 500
-    url = "/abstracts"
-# [[menu.main]]
-#     name = "Video"
-#     identifier = "video"
-#     weight = 600
-#     url = "/video"
-# [[menu.main]]
-#     name = "Media"
-#     identifier = "media"
-#     weight = 600
-#     url = "/media"
+
+
+
+
+

@@ -1,11 +1,15 @@
 {
+    "title":"Events and Appearances",
+    "content": "",
+    "style": "items style1 onscroll-fade-in small",
     "events":[ {
         "name": "Cloud and Containers Live",
         "date": "2021-11-15",
         "url": "https://live360events.com/Events/Orlando-2021/Sessions/Tuesday/CCT05-Azure-Functions-A-Guide-to-Getting-Started.aspx",
         "details":"Azure Functions: a guide to getting started",
         "appearances":["virtual","conference"],
-        "type": "virtual"
+        "type": "virtual",
+        "style" : "style2 major fa-desktop"
     },
     {
        "name": "Build Stuff",
@@ -13,7 +17,8 @@
        "url": "https://www.buildstuff.events",
        "details":"TDD and the Terminator: an introduction to test driven development",
        "appearances":["virtual","conference"],
-       "type": "virtual"
+       "type": "virtual",
+       "style" : "style2 major fa-desktop"
    },
     {
         "name": "NDC Oslo",
@@ -21,7 +26,8 @@
         "url": "https://ndcoslo.com/",
         "details":"Learning in public : livecoding on twitch",
         "appearances":["conference"],
-        "type": "in-person"
+        "type": "in-person",
+        "style" : "style2 major fa-desktop"
     },
     {
         "name": "CodeCamp Romania",
@@ -29,7 +35,8 @@
         "url": "https://codecamp.ro/",
         "details":"Details to follow",
         "appearances":["virtual", "conference"],
-        "type": "virtual"
+        "type": "virtual",
+        "style" : "style2 major fa-desktop"
     },
     {
         "name": "Developer! Developer! Developer!",
@@ -37,15 +44,17 @@
         "url": "https://www.developerdeveloperdeveloper.com/",
         "details":"Understanding microservices : a guide for the monolithic developer",
         "appearances":["virtual", "conference"],
-        "type": "virtual"
+        "type": "virtual",
+        "style" : "style2 major fa-desktop"
     },
     {
         "name": "NDC London",
-        "date": "2022-01-28",
+        "date": "2022-05-13",
         "url": "https://ndclondon.com/",
         "details":"Azure Functions: a guide to getting started",
         "appearances":["in-person"],
-        "type": "in-person"
+        "type": "in-person",
+        "style" : "style2 major fa-user-friends"
     }]
 
 }
