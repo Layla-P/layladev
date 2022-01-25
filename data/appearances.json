@@ -9,7 +9,8 @@
         "details":"Azure Functions: a guide to getting started",
         "appearances":["virtual","conference"],
         "type": "virtual",
-        "style" : "style2 major fa-desktop"
+        "style" : "style2 major fa-desktop icon-purple",
+        "badge" :"badge-purple"
     },
     {
        "name": "Build Stuff",
@@ -18,7 +19,8 @@
        "details":"TDD and the Terminator: an introduction to test driven development",
        "appearances":["virtual","conference"],
        "type": "virtual",
-       "style" : "style2 major fa-desktop"
+       "style" : "style2 major fa-desktop icon-purple",
+       "badge" :"badge-purple"
    },
     {
         "name": "NDC Oslo",
@@ -27,7 +29,8 @@
         "details":"Learning in public : livecoding on twitch",
         "appearances":["conference"],
         "type": "in-person",
-        "style" : "style2 major fa-desktop"
+        "style" : "style2 major fa-desktop icon-purple",
+        "badge" :"badge-purple"
     },
     {
         "name": "CodeCamp Romania",
@@ -36,7 +39,8 @@
         "details":"Details to follow",
         "appearances":["virtual", "conference"],
         "type": "virtual",
-        "style" : "style2 major fa-desktop"
+        "style" : "style2 major fa-desktop icon-purple",
+        "badge" :"badge-purple"
     },
     {
         "name": "Developer! Developer! Developer!",
@@ -45,7 +49,8 @@
         "details":"Understanding microservices : a guide for the monolithic developer",
         "appearances":["virtual", "conference"],
         "type": "virtual",
-        "style" : "style2 major fa-desktop"
+        "style" : "style2 major fa-desktop icon-purple",
+        "badge" :"badge-purple"
     },
     {
         "name": "NDC London",
@@ -54,7 +59,8 @@
         "details":"Azure Functions: a guide to getting started",
         "appearances":["in-person"],
         "type": "in-person",
-        "style" : "style2 major fa-user-friends"
+        "style" : "style2 major fa-user-friends icon-green",
+        "badge" :"badge-green"
     }]
 
 }

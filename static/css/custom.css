@@ -2,3 +2,37 @@
     margin: 0 0;
 
 }
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+.badge-red {
+    color: #fff;
+    background-color: rgb(83, 17, 17);
+}
+.badge-purple {
+    color: #fff;
+    background-color: rgb(57, 24, 100);
+}
+.badge-green {
+    color: #fff;
+    background-color: rgb(6, 121, 34);
+}
+
+.icon-red{
+    color: rgb(83, 17, 17);
+}
+.icon-purple{
+    color: rgb(57, 24, 100);
+}
+.icon-green{
+    color: rgb(6, 121, 34);
+}
