@@ -6,7 +6,7 @@
     <div class="content">
 
         <dl>
-            {{ range .definitions }}  
+            {{ range .definitions  | markdownify }}  
             <dt>{{.title}}</dt>
             <dd>
                 <p>{{.content}}</p>
