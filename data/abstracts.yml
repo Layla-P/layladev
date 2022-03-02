@@ -1,5 +1,7 @@
 title : "Abstracts"
 definitions:
+  - title: "Layla's Bio"
+    content: "Layla is a Developer Advocate at VMware serving the .NET community. She is a Live Coder on Twitch, a Microsoft MVP, a GitHub Star, and the founder of the #WomenOfDotNet Initiative. Layla loves sharing knowledge whilst having fun. No question is stupid and beginners are always welcome."
   - title: "APIs Exposed!"
     content: "More and more developers are building APIs, whether that be for consumption by client-side applications, exposing endpoints directly to customers so they can use an alternative front-end or wrapping up services in containers."
   - title: "Learning in public - Live coding on Twitch"
