@@ -19,7 +19,7 @@ summaryLength = 25
 copyright = "Layla - All rights reserved"
 enableEmoji = true
 publishDir = "public"
-#googleAnalytics = "UA-1XXXXXXX1-1"
+#googleAnalytics = "UA-222051729-1"
 
 [params]
   logo = "/images/logo.png"
