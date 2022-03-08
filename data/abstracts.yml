@@ -13,13 +13,6 @@ definitions:
   - title: "TDD and the Terminator - An introduction to Test Driven Development"
     content: "Getting started with Test Driven Development (TDD) can be very challenging. It requires a different mindset and approach to writing and developing code. However, once in that mindset, it is very difficult not to write tests first."
   - title: "Top Tips For Blazor"
-    content: > 
-              Want to try out Blazor? Maybe you already have! Here are my top tips for creating awesome Blazor applications! 
-              We'll cover the following topics and more in this demo rich session:
-                * Blazor Server and Blazor WASM 
-                * Blazor hybrid web apps with .NET MAUI 
-                * Awesome Components 
-                * A whole host of performance-improving tips 
-                * Tools to make development easier 
+    content: "Want to try out Blazor? Maybe you already have! Here are my top tips for creating awesome Blazor applications! We'll cover the following topics and more in this demo rich session: * Blazor Server and Blazor WASM * Blazor hybrid web apps with .NET MAUI * Awesome Components * A whole host of performance-improving tips * Tools to make development easier" 
   - title: "Bridging The Gap - a keynote co-presented with Alyssa Nicoll"
     content: "Introvert and extrovert, frontend and backend, this language or that one, with children or without. There are so many gaps in our industry that can have consequences if not bridged - will you get the promotion? Will you get the new job? Will your voice be heard? There are many ways to bridge a gap, and often the best way isn’t obvious. Layla and Alyssa hope, that through their stories and experiences, they can bring mindfulness and compassion to the forefront of your thoughts and help you bridge the gaps in your career and life."
