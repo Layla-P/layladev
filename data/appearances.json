@@ -2,96 +2,7 @@
     "title":"Events and Appearances",
     "content": "",
     "style": "items style1 onscroll-fade-in small",
-    "events":[ {
-        "name": "Cloud and Containers Live",
-        "date": "2021-11-15",
-        "url": "https://live360events.com/Events/Orlando-2021/Sessions/Tuesday/CCT05-Azure-Functions-A-Guide-to-Getting-Started.aspx",
-        "details":"Azure Functions: a guide to getting started",
-        "appearances":["virtual","conference"],
-        "type": "virtual",
-        "style" : "style2 major fa-desktop icon-purple",
-        "badge" :"badge-purple"
-    },
-    {
-       "name": "Build Stuff",
-       "date": "2021-11-17",
-       "url": "https://www.buildstuff.events",
-       "details":"TDD and the Terminator: an introduction to test driven development",
-       "appearances":["virtual","conference"],
-       "type": "virtual",
-       "style" : "style2 major fa-desktop icon-purple",
-       "badge" :"badge-purple"
-   },
-    {
-        "name": "NDC Oslo",
-        "date": "2021-12-02",
-        "url": "https://ndcoslo.com/",
-        "details":"Learning in public : livecoding on twitch",
-        "appearances":["conference"],
-        "type": "in-person",
-        "style" : "style2 major fa-desktop icon-purple",
-        "badge" :"badge-purple"
-    },
-    {
-        "name": "CodeCamp Romania",
-        "date": "2021-12-09",
-        "url": "https://codecamp.ro/",
-        "details":"Details to follow",
-        "appearances":["virtual", "conference"],
-        "type": "virtual",
-        "style" : "style2 major fa-desktop icon-purple",
-        "badge" :"badge-purple"
-    },
-    {
-        "name": "Developer! Developer! Developer!",
-        "date": "2021-11-27",
-        "url": "https://www.developerdeveloperdeveloper.com/",
-        "details":"Understanding microservices : a guide for the monolithic developer",
-        "appearances":["virtual", "conference"],
-        "type": "virtual",
-        "style" : "style2 major fa-desktop icon-purple",
-        "badge" :"badge-purple"
-    },
-    {
-        "name": "NDC London",
-        "date": "2022-05-13",
-        "url": "https://ndclondon.com/",
-        "details":"Azure Functions: a guide to getting started",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
-    },
-    {
-        "name": "Code On the beach",
-        "date": "2022-07-26",
-        "url": "https://www.codeonthebeach.com/",
-        "details":"Architecture for .NET developers with Nate Schutta",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
-    },
-    {
-        "name": "CodeCampSDQ",
-        "date": "2022-07-30",
-        "url": "https://codecampsdq.com/",
-        "details":"Top Tips for Blazor",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
-    },
-    {
-        "name": "KCDC",
-        "date": "2022-08-09",
-        "url": "https://www.kcdc.info/",
-        "details":"Understanding Microservices: a guide for the monolithic developer",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
-    },
+    "events":[ 
     {
         "name": "Devreach",
         "date": "2022-09-11",
@@ -99,18 +10,8 @@
         "details":"Multiple sessions and a Workshop",
         "appearances":["in-person"],
         "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
-    },
-    {
-        "name": "Swetugg",
-        "date": "2022-09-19",
-        "url": "https://www.swetugg.se/gbg-2022",
-        "details":"Top Tips for Blazor",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
+        "style" : "style2 major fa-user-friends icon-purple",
+        "badge" :"badge-purple"
     },
     {
         "name": "NDC Oslo",
@@ -119,8 +20,8 @@
         "details":"Learning in public - Live coding on Twitch",
         "appearances":["in-person"],
         "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
+        "style" : "style2 major fa-user-friends icon-purple",
+        "badge" :"badge-purple"
     },
     {
         "name": "Jetbrains .NET day",
@@ -129,24 +30,42 @@
         "details":"ASP.NET Basics for Experts",
         "appearances":["virtual", "conference"],
         "type": "virtual",
-        "style" : "style2 major fa-user-friends icon-green",
+        "style" : "style2 major fa-user-friends icon-purple",
         "badge" :"badge-purple"
-    },
-    {
-        "name": "Caribbean Developers Conference",
-        "date": "2022-11-03",
-        "url": "https://cdc.dev/",
-        "details":"Multiple sessions",
-        "appearances":["in-person"],
-        "type": "in-person",
-        "style" : "style2 major fa-user-friends icon-green",
-        "badge" :"badge-green"
     },
     {
         "name": "Øredev",
         "date": "2022-11-08",
         "url": "https://oredev.org/",
         "details":"ASP.NET Basics for Experts",
+        "appearances":["in-person"],
+        "type": "in-person",
+        "style" : "style2 major fa-user-friends icon-purple",
+        "badge" :"badge-purple"
+    },    {
+        "name": ".NET Conference",
+        "date": "2022-11-09",
+        "url": "https://dotnetconf.net",
+        "details":"ASP.NET Basics for Experts",
+        "appearances":["virtual"],
+        "type": "virtual",
+        "style" : "style2 major fa-user-friends icon-purple",
+        "badge" :"badge-purple"
+    },    {
+        "name": "NDC London",
+        "date": "2023-01-23",
+        "url": "https://ndclondon.com/",
+        "details":"Building cloud-ready applications in .NET, ASP.NET Basics for Experts workshop",
+        "appearances":["in-person"],
+        "type": "in-person",
+        "style" : "style2 major fa-user-friends icon-green",
+        "badge" :"badge-green"
+    },
+    {
+        "name": "Swetugg",
+        "date": "2023-02-08",
+        "url": "https://swetugg.se/sthlm-2023",
+        "details":"ASP.NET Basics for Experts workshop",
         "appearances":["in-person"],
         "type": "in-person",
         "style" : "style2 major fa-user-friends icon-green",
