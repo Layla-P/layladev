@@ -36,10 +36,9 @@ publishDir = "public"
 
 [params.social]
   github = "Layla-p"
-  linkedin = "layla-porter"
   twitter = "laylacodesit"
-  twitch = "laylacodesit"
-  tiktok = "laylacodesit"
+  mastodon = "layla"
+  youtube = "laylacodesit"
   sessionize= "https://sessionize.com/layla-porter/"
 
 
