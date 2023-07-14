@@ -36,3 +36,7 @@
 .icon-green{
     color: rgb(6, 121, 34);
 }
+
+.spotlight .image {
+    background-color: transparent;
+}
