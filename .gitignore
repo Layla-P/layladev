@@ -5,6 +5,7 @@
 
 #Hugo specific files
 [Tt]hemes
+[Tt]hemes/*
 
 # User-specific files
 *.rsuser
