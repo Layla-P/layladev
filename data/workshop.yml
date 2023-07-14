@@ -3,12 +3,13 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "workshop"
 title : "Available workshops"
 definitions:
-  - workshop-name: "The road to modularity - coming soon"
-    workshop-description: "A complete guide to modularising your app into a maintainable, well-architected modular monolith."
-  - workshop-name: "Building cloud-ready, resilient systems in .NET"
-    workshop-description:  You may think that your application is already cloud-ready, it’s deployed in the cloud isn’t it?!
+  - workshopName: "The road to modularity - coming soon"
+    workshopDescription: "A complete guide to modularising your app into a maintainable, well-architected modular monolith."
+  - workshopName: "Building cloud-ready, resilient systems in .NET"
+    workshopDescription: |
+      You may think that your application is already cloud-ready, it’s deployed in the cloud isn’t it?!
       But in truth, if your application is hard to monitor/scale/release/maintain, lacks resiliency, and is poorly structured, then it’s not “cloud-ready”.
-
+      
       So what does “cloud-ready” actually mean?
 
       A “cloud ready” application is a legacy software application that has been modified to run on cloud computing infrastructure.
@@ -19,14 +20,14 @@ definitions:
       We’ll look at all the different requirements that need to be met, starting with a code kata and how we can apply various design patterns to our way of thinking.
       We’ll then move on to actually building out a functioning, all-be-it, contrived application in .NET 7 and C#, learning as we go.
 
-      ## Topics we’ll cover:
+      Topics we’ll cover
       Architecture and Methodology
       Modular monolith vs microservices vs SOA
       Distribution and Modularization
       Common design patterns
       Modelling requirements
 
-      ## Implementations
+      Implementations
       .NET 7 application development recap
       Databases
       Synchronous communication
@@ -35,19 +36,6 @@ definitions:
       Service discovery
       Resiliency
 
-      ## Who is this workshop aimed at
-
-      This workshop is aimed at backend developers with some experience writing web applications using C# and .NET.
-      The workshop will not cover .NET Framework.
-
-      ## Equipment and software
-      - A computer – either Windows PC or macOS (I have no experience with Linux so if you bring a Linux machine my problem-solving will be limited)
-      - Visual Studio 2022 or JetBrains Rider
-      - VS Code
-      - .NET 7
-      - Docker Desktop
-      - Postman or similar
-      - Azurite
 
 image: 
   imagepath: "images/workshop-small.jpg"

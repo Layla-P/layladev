@@ -18,14 +18,14 @@
         <!-- {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }} -->
     <h3>Upcoming</h3>
         <div class="items {{ .style }}">                       
-            {{ range sort $events "date" "desc" }}            
+            {{ range sort $events "date" "asc" }}            
 
             {{ if (.date.After now) }}           
             {{ partial "appearance" . }}
             {{ end }}
             {{end}}
         </div>
-        <h3>Previous</h3>
+        {{/*  <h3>Previous</h3>
         <div class="items {{ .style }}">
             {{ range sort $events "date" "desc" }}
 
@@ -33,6 +33,6 @@
             {{ partial "appearance" . }}
             {{ end }}
             {{end}}
-        </div>
+        </div>  */}}
     </div>
 </section>
