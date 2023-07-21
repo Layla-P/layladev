@@ -3,6 +3,7 @@
     <span class="icon {{ .style }}"></span>
     <a href="{{ .url }}" target="_blank"><h3>{{ .name }}</h3></a>
     <h5> {{time.Format "January 2 2006" $t }}</h5>
+    <p>{{.location}}</p>
     <p>{{ .details }}</p>
     <p><span class="badge {{ .badge }}">{{ .type}}</span></p>
 </section>
