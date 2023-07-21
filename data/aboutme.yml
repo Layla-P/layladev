@@ -3,10 +3,10 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title : "About me"
 id: "about"
 content: |
-  Hello! I'm Layla and I'm a developer with a love for C# and tech in general! I have been awarded a Microsoft MVP for the past 4 years in developer technologies and a GitHub Star award the past 2 years.  I also founded the #WomenOfDotNet Initiative. I love sharing knowledge whilst having fun and I definitely don't profess to know it all! No question is stupid and beginners are always welcome.
+  Hello! I'm Layla and I'm a developer with a love for C# and tech in general! I have been awarded a Microsoft MVP for the past 5 years in developer technologies and a GitHub Star award the past 3 years.  I also founded the #WomenOfDotNet Initiative. I love sharing knowledge whilst having fun and I definitely don't profess to know it all! No question is stupid and beginners are always welcome.
 button: 
   label: "Connecting with me"
   link: "#contact"
 image: 
-  imagepath: "images/layla-porter-cover.jpg"
+  imagepath: "images/on-stage-small.jpg"
   imagealt: ""
