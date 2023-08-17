@@ -1,0 +1,12 @@
+{{ $email := "hey@layla.dev" }}
+
+<form method="post" action="/contact" netlify>
+    <input type="hidden" name="form-name" value="contact">
+    Subject:<br>
+    <input type="text" name="subject" placeholder="Your Name" required><br>
+    Email:<br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    Message:<br>
+    <textarea name="body" rows="5" cols="30" placeholder="Your Message" required></textarea><br>
+    <input type="submit" value="Send">
+</form>
