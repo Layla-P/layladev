@@ -7,7 +7,8 @@ Spotlight
             <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
         </ul>{{ end }}
 
-        <form method="post" action="/contact" netlify>
+     <div>
+        <form method="post" action="/#contact" netlify>
             <input type="hidden" name="form-name" value="contact">
             <label for="subject">Subject:</label><br>
             <input type="text" id="subject" name="subject" placeholder="Your Name" required><br>
@@ -17,6 +18,7 @@ Spotlight
             <textarea id="message" name="body" rows="5" cols="30" placeholder="Your Message" required></textarea><br>
             <button type="submit">Send</button>
         </form>
+     </div>
 
     {{ with .image }}<div class="image">
         <img src="{{ .imagepath }}" alt="{{ .imagealt }}" />
