@@ -3,8 +3,7 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 id: "contact"
 title : "Connecting with me"
 content: |
-  If you would like to collaborate with me, or discuss me speaking at or hosting your 
-  event, please complete this <a href="https://docs.google.com/forms/d/e/1FAIpQLScj9TuqRBOblAsp02B_r9uvNVSaUfKp5nX7hbV2RjYtqBjAkQ/viewform">form</a>.
+  For business enquiries, including discussing speaking or hosting opportunities, please complete this contact form:
 
 image: 
   imagepath: "images/teaching-small.jpg"
