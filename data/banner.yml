@@ -5,9 +5,9 @@ subtitle: |
   
 content : |
  
-  I'm an experienced developer-relations professional, international speaker and broadcaster. I specialise in software development and architect using .NET technologies. You can watch my videos on my new YouTube channel. button:
+  I'm an experienced developer-relations professional, international speaker and broadcaster. I specialise in software development and architect using .NET technologies. You can watch my videos on my new YouTube channel.
 
-button1:
+button:
   label : "About me"
   link : "#about"
 button2:
