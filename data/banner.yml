@@ -4,8 +4,10 @@ title : "Hi, I'm Layla"
 subtitle: |
   
 content : |
-  I'm a .NET developer and I create video content and livestream on YouTube. I am also an experienced devrelian (developer relations), international speaker and broadcaster.
-button:
+ 
+  I'm an experienced developer-relations professional, international speaker and broadcaster. I specialise in software development and architect using .NET technologies. You can watch my videos on my new YouTube channel. button:
+
+button1:
   label : "About me"
   link : "#about"
 button2:
