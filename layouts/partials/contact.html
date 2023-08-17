@@ -1,4 +1,3 @@
-Spotlight
 <section class="spotlight {{ .style }}" {{ with .id }} id="{{ . }}" {{ end }}>
     <div class="content">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
@@ -19,7 +18,7 @@ Spotlight
             <button type="submit">Send</button>
         </form>
      </div>
-
+    </div>
     {{ with .image }}<div class="image">
         <img src="{{ .imagepath }}" alt="{{ .imagealt }}" />
     </div>{{ end }}
