@@ -7,7 +7,7 @@
             <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
         </ul>{{ end }}
 
-        {{ contact }}
+        {{ ./shortcodes/contact }}
 
     {{ with .image }}<div class="image">
         <img src="{{ .imagepath }}" alt="{{ .imagealt }}" />
