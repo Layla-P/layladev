@@ -4,7 +4,7 @@ id: "contact"
 title : "Connecting with me"
 content: |
   For business enquiries, including discussing speaking or hosting opportunities, please complete this contact form:
-  {{ < emailcontact > }}
+  {{ % emailcontact % }}
 image: 
   imagepath: "images/teaching-small.jpg"
   imagealt: "A photo of Layla talking animatedly to students"
