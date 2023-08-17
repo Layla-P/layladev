@@ -7,16 +7,22 @@
         </ul>{{ end }}
 
      <div>
-        <form method="post" netlify>
-            <input type="hidden" name="form-name" value="contact">
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Your Name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="body" rows="5" cols="30" placeholder="Your Message" required></textarea><br>
-            <button type="submit">Send</button>
-        </form>
+        
+        <form name="contact" method="POST" netlify>
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          
      </div>
     </div>
     {{ with .image }}<div class="image">
