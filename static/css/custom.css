@@ -42,6 +42,9 @@ dl dt {
     background-color: rgb(6, 121, 34);
 }
 
+.m-right{
+ margin-right: 10px;
+}
 .icon-red{
     color: rgb(83, 17, 17);
 }

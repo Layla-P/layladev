@@ -17,7 +17,7 @@
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         <!-- {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }} -->
     <h3>Upcoming</h3>
-        <div class="items {{ .style }}">                       
+        <div class="{{ .style }}">                       
             {{ range sort $events "date" "asc" }}            
 
             {{ if (.date.After now) }}           
