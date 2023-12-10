@@ -1,7 +1,5 @@
 title : "Abstracts"
 definitions:
-  - title: "Layla's Bio"
-    content: "Layla is a Developer Advocate at VMware serving the .NET community. She creates videos for YouTube predominantly on .NET but you'll find other topics, such as devrel and tech covered too. She is a 5 times Microsoft MVP, 3 times GitHub Star, and the founder of the #WomenOfDotNet Initiative. Layla loves sharing knowledge whilst having fun. No question is stupid and beginners are always welcome."
   - title: "Distribu-ready with the Modular Monolith"
     content: "The past few years have seen huge hype around distributed systems and microservices. Pre-emptive implementation of a distributed architecture has led to many engineering teams struggling with vast complexity and sadly for many, the dreaded 'Distributed Monolith'. Some teams are in such a pickle that they are even reverting their distributed applications back to a monolith. I'm all for designing and developing for future growth, but there is a better way than diving straight into distributed architecture. Behold, the Modular Monolith. By design, the modular monolith is 'distribu-ready' and in this session, we'll cover the design principles and implementations that make the modular monolith one of the best options for future-proofing your application whilst minimising complexity."
   - title: "KitKats, satellites, and the modular monolith"

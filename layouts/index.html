@@ -1,20 +1,26 @@
-{{ define "main" }}
-
-	{{ partial "banner" site.Data.banner }}
-	{{ partial "spotlight" site.Data.aboutme }}
-	{{ partial "workshop"  }}
-	{{ partial "upcoming-workshops"  }}
-	{{ partial "definitions" site.Data.abstracts }}	
-	{{ partial "appearances" site.Data.appearances }}
-	{{ partial "contact" site.Data.contact }}
-	<!-- {{ partial "spotlight-newsletter"  }} -->
-	
-	<!-- 
-	{{ partial "spotlight" site.Data.spotlight3 }}
-	{{ partial "gallery" site.Data.gallery }}
-	{{ partial "items" site.Data.items }} -->
-	<!-- {{ partial "elements" . }}
-	{{ partial "elements_reference" . }} -->
-	{{ partial "template/footer" . }}
-
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
 {{ end }}
+
+{{ define "main" }}
+    <div class="main-content">
+
+        <div class="w-full m-0 p-0 bg-cover bg-center"
+		style="background-image:url('{{ relURL "images/update-1.jpg"}}'); height: 60vh; max-height:560px; width: 100%;">
+		<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+			<!--Title-->
+		
+		</div>
+	</div>
+
+      
+        
+        {{ partial "partials/single-partials/about.html" . }}
+            
+    </div>
+
+{{end}}
+
+{{ define "footer" }}
+    {{- partial "_shared/footer.html" . -}}
+{{end}}

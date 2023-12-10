@@ -1,0 +1,28 @@
+baseURL = 'https://layla.dev/'
+languageCode = 'en-us'
+title = 'LaylaCodesIt'
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+
+min_version = "0.67.3 Extended"
+
+
+
+  [[params.navlinks]]
+  name = "Newsletter"
+  url = "newsletter/"
+
+  [[params.navlinks]]
+  name = "Workshops"
+  url = "workshops/"
+
+    [[params.navlinks]]
+  name = "Talks"
+  url = "talks/"
+
+   [[params.navlinks]]
+  name = "Contact"
+  url = "contact/"

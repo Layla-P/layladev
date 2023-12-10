@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+h1 {
+    @apply font-heading font-extrabold text-2xl sm:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-cl-dark-blue to-cl-hot-pink my-6 text-center;
+}
+
+h2 {
+    @apply font-extrabold text-base text-2xl sm:text-xl text-cl-dark-blue my-6 text-center mx-6;
+}
+
+h3 {
+    @apply font-bold text-base sm:text-lg text-cl-dark-blue my-6 text-center mx-6;
+}
+
+h4 {
+    @apply text-lg text-cl-dark-blue my-6 text-center;
+}
+
+body, input, select, textarea, p  {
+    font-family: "Heebo", sans-serif;
+    font-size: large;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Snippet", sans-serif;
+}
+
+.newsletter h1 {
+    @apply sm:text-6xl text-3xl 
+}
+
+.newsletter h2 {
+    @apply text-left mx-0 font-bold text-cl-guava text-3xl sm:text-2xl 
+}
+
+.newsletter h3 {
+    @apply text-left mx-0 font-bold text-cl-guava sm:text-xl text-2xl 
+}
+
+.newsletter a {
+    text-decoration-line: underline;
+    @apply text-fp-dark-pink 
+}
+
+.newsletter a:visited {
+    @apply text-cl-dark-blue
+  }
+
+  .newsletter a:hover {
+    @apply text-fp-violet
+  }
+
+p {
+ @apply mb-3
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-grad {
+    @apply bg-gradient-to-r from-cl-nude to-cl-guava hover:from-cl-hot-pink hover:to-cl-red text-cl-dark-blue hover:text-white font-semibold py-2 px-4 border border-cl-guava hover:border-cl-hot-pink rounded shadow;
+}
+
+.separator::after {
+    content: '|';
+    position: absolute;
+    right: -1em; /* Adjust the spacing between the menu item and the separator */
+    color: #F2A297; /* Set your desired color */
+  }
+
+
+.card-input {
+    @apply appearance-none block w-full bg-cl-nude text-cl-hot-pink border border-cl-guava rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-cl-hot-pink placeholder-cl-guava focus:placeholder-white;
+}
+
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: #142738;
+}

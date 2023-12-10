@@ -1,0 +1,86 @@
+{{ define "header"}}
+{{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+
+
+{{ if eq .Params.type "newsletter" }}
+
+{{ partial "partials/single-partials/newsletter.html" . }}
+
+{{else if eq .Params.type "about" }}
+
+{{ partial "partials/single-partials/about.html" . }}
+
+{{else if eq .Params.type "talks" }}
+
+{{ partial "partials/single-partials/talks.html" . }}
+
+{{else if eq .Params.type "workshops" }}
+
+{{ partial "partials/single-partials/workshops.html" . }}
+
+{{else if eq .Params.type "contact" }}
+
+{{ partial "partials/_shared/contact.html" . }}
+
+{{ else }}
+<div class="">
+    <!-- Begin Article
+        ================================================== -->
+
+
+    <!--image-->
+    <div class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
+        style="background-image:url('https://source.unsplash.com/collection/1118905/'); height: 45vh;"></div>
+
+    <!--Container-->
+    <div class="container max-w-5xl mx-auto -mt-32">
+
+        <div class="mx-0 sm:mx-6">
+
+            <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal"
+                style="font-family:Georgia,serif;">
+
+                <!--Post Content-->
+
+
+                <!--Lead Para-->
+                {{ .Content }}
+
+
+
+                <!--/ Post Content-->
+
+            </div>
+
+
+            <!--Subscribe-->
+            {{ partial "_shared/subscribe.html" . }}
+            <!-- /Subscribe-->
+
+
+            <!--Author-->
+    
+                <!--/Author-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- End Article
+        ================================================== -->
+
+</div>
+{{end}}
+{{ end }}
+
+{{ define "footer"}}
+{{ if eq .Type "blog" }}
+{{- partial "_shared/jumbotron.html" . -}}
+{{ end }}
+{{- partial "_shared/footer.html" . -}}
+{{ end }}

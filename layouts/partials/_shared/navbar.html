@@ -1,0 +1,77 @@
+<!-- Begin Menu Navigation
+================================================== -->
+<!--  -->
+<!-- End Navigation
+================================================== -->
+
+<div class="w-full bg-cl-dark-blue shadow-lg">
+    <nav class="container mx-auto relative px-4 py-4 flex items-center justify-center">
+        <div class="flex items-center lg:space-x-8  lg:pl-8">
+            <div class="lg:pl-8">
+                <a class="flex text-cl-nude hover:text-cl-hot-pink
+                    cursor-pointer transition-colors duration-300" href="/">
+                       LaylaCodesIt
+                    </a>
+                </div>
+        </div>
+        <a class="text-3xl font-bold leading-none px-4" href="">
+            <img class="h-20 object-cover" src="{{ relURL "images/coda-light.png"}}" alt="Coda the coding minpin">
+        </a>
+   
+        <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-cl-guava p-3" id="toggleButton">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Mobile menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </button>
+        </div>
+        <ul class="items-center hidden space-x-8 lg:flex list-none" id="menu">
+            
+                {{ $navLinks := .Site.Params.navlinks }}
+                {{ range $index, $link := $navLinks }}
+                    <li>
+                        <a class="flex text-cl-nude hover:text-cl-hot-pink cursor-pointer transition-colors duration-300 relative" href="{{ absURL $link.url }}">
+                            {{ $link.name }}
+                            {{ if ne $index (sub (len $navLinks) 1) }} <!-- Check if it's not the last item -->
+                                <span class="separator"></span> <!-- Add separator if not last item -->
+                            {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+
+            </ul>
+
+    </nav>
+    <div class="navbar-menu relative z-50 hidden" id="nav-slide">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-cl-dark-blue border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                    <img class="h-12 object-cover" src="{{ relURL "images/coda-light.png"}}" alt="Coda the coding minpin">
+                </a>
+                <button class="navbar-close ">
+                    <svg id="cross" class="h-6 w-6 text-cl-hot-pink cursor-pointer hover:text-cl-guava"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <ul class="space-y-8 md:space-x-10 flex flex-col lg:pl-0 pl-8 list-none">
+
+                {{ range .Site.Params.navlinks }}
+                <li>
+                    <a class="flex text-cl-nude hover:text-cl-hot-pink
+                    cursor-pointer transition-colors duration-300" href="{{ absURL .url }}">
+                        {{ .name }}
+                    </a>
+                </li>
+                {{ end }}
+
+            </ul>
+
+        </nav>
+    </div>
+</div>
