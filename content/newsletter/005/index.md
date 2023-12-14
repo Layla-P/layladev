@@ -8,7 +8,7 @@ image:
   alt: "A portrait photograph of Luce Carter."
 card: "image"
 comments: false
-summary: This edition features guest Luce Carter. Brandon talks about how she uses AI to help in apps that help her with day-to-day activities. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
+summary: This edition features guest Luce Carter. Luce talks about how she uses AI to help in apps that help her with day-to-day activities. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
 ---
 
