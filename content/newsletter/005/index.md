@@ -54,14 +54,14 @@ Feel free to reach out to me on Twitter if you have any stories about how AI has
 
 ### Luce's recommendations
 
-As a Microsoft MVP, I have been lucky to be exposed to Copilot from early on, but [this article](https://about.sourcegraph.com/blog/copilot-vs-cody-why-context-matters-for-code-ai) from my friend Ado Kukic on Cody, an alternative from Sourcegraph, really got me thinking about the impact of context with AI. 
-The [tutorial]https://thomasjfrank.com/how-to-transcribe-audio-to-text-with-chatgpt-and-notion/) I mentioned earlier on how to automate audio into Notion.
-Entity Framework has been around for a while and whenever MongoDB is discussed, people ask me about EF Core support. Well we now have a driver in preview and I am proud of [this tutorial](https://www.mongodb.com/developer/languages/csharp/crud-changetracking-mongodb-provider-for-efcore/) I wrote showing how to use it in an ASP.NET Core MVC app. 
+- As a Microsoft MVP, I have been lucky to be exposed to Copilot from early on, but [this article](https://about.sourcegraph.com/blog/copilot-vs-cody-why-context-matters-for-code-ai) from my friend Ado Kukic on Cody, an alternative from Sourcegraph, really got me thinking about the impact of context with AI. 
+- The [tutorial](https://thomasjfrank.com/how-to-transcribe-audio-to-text-with-chatgpt-and-notion/) I mentioned earlier on how to automate audio into Notion.
+- Entity Framework has been around for a while and whenever MongoDB is discussed, people ask me about EF Core support. Well we now have a driver in preview and I am proud of [this tutorial](https://www.mongodb.com/developer/languages/csharp/crud-changetracking-mongodb-provider-for-efcore/) I wrote showing how to use it in an ASP.NET Core MVC app. 
 
 ## What's new and exciting?
-[.NET Conf 2023 Recap – Celebrating Community, Innovation, and the Launch of .NET 8](https://devblogs.microsoft.com/dotnet/dotnet-conf-2023-recap-videos-slides-demos-and-more/) - if you missed out on .NET Conf last month, then this recap is a good place for you to get all caught up!
-[Debugging Enhancements in .NET 8](https://devblogs.microsoft.com/dotnet/debugging-enhancements-in-dotnet-8/) - debugging is oftentimes overlooked, so go check out all the cool new improvements in .NET 8.
-[What’s new with identity in .NET 8](https://devblogs.microsoft.com/dotnet/whats-new-with-identity-in-dotnet-8) - ahhh, identity, that old chestnut. Jeremy Likness tells us what's new with our favourite topic, Identity, in .NET 8.
+- [.NET Conf 2023 Recap – Celebrating Community, Innovation, and the Launch of .NET 8](https://devblogs.microsoft.com/dotnet/dotnet-conf-2023-recap-videos-slides-demos-and-more/) - if you missed out on .NET Conf last month, then this recap is a good place for you to get all caught up!
+- [Debugging Enhancements in .NET 8](https://devblogs.microsoft.com/dotnet/debugging-enhancements-in-dotnet-8/) - debugging is oftentimes overlooked, so go check out all the cool new improvements in .NET 8.
+- [What’s new with identity in .NET 8](https://devblogs.microsoft.com/dotnet/whats-new-with-identity-in-dotnet-8) - ahhh, identity, that old chestnut. Jeremy Likness tells us what's new with our favourite topic, Identity, in .NET 8.
 
 
 ## What to read 📖
@@ -77,15 +77,17 @@ Entity Framework has been around for a while and whenever MongoDB is discussed, 
 [Polly V8 with Joel Hulen and Martin Costello](https://www.dotnetrocks.com/details/1875) - I'm a big fan of Polly, and in this episode of .NET Rocks, Carl and Richard chat with two of the Polly project maintainer, Joel Hulen and Martin Costello, about the latest release.
 
 [Uncovering Advanced .NET Front-end Development: Blazor, Micro Frontends, and AngleSharp](https://topenddevs.com/podcasts/adventures-in-net/episodes/uncovering-advanced-net-front-end-development-blazor-micro-frontends-and-anglesharp-net-167) - The _Adventures in .NET_ hosts are joined by Florian Rappl.
+
+
 ## What to watch 📺
 [The .NET Conf 2023 Playlist!](https://youtube.com/playlist?list=PLdo4fOcmZ0oULyHSPBx-tQzePOYlhvrAU&si=2lPIiL1lnrB81IXv)
 
 
 ## Before you go 👋
 
-We do hope you’ve enjoyed the articles, videos, and podcasts we’ve shared with you. If you have an article you’d like us to include in the newsletter, then please complete this form[https://forms.gle/WJM3F7STnSiVdysy5].
+We do hope you’ve enjoyed the articles, videos, and podcasts we’ve shared with you. If you have an article you’d like us to include in the newsletter, then please complete this [form](https://forms.gle/WJM3F7STnSiVdysy5).
 
-If you have any comments or suggestions or just want to reach out, please complete this contact form[https://forms.gle/TNMj6mMtUxDFXP8v6]  to reach me, Layla.
+If you have any comments or suggestions or just want to reach out, please complete this [contact form](https://forms.gle/TNMj6mMtUxDFXP8v6)  to reach me, Layla.
 
 Lastly, don’t forget to subscribe to the newsletter and share it with your friends!
 
