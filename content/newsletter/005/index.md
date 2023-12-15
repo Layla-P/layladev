@@ -14,6 +14,7 @@ twImage: "images/5.jpeg"
 twitter:
   card: summary_large_image
   site: "@LaylaCodesIt"
+  creator: "@LaylaCodesIt"
   image: "/images/5.jpg" 
 
 ---

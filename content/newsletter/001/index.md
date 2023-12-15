@@ -13,6 +13,7 @@ type: newsletter
 twitter:
   card: summary_large_image
   site: "@LaylaCodesIt"
+  creator: "@LaylaCodesIt"
   image: "/images/1.jpg" 
 ---
 
