@@ -8,13 +8,10 @@ image:
   alt: "A portrait of Rachel"
 card: "image"
 comments: false
-summary: This edition features guest Rachel Appel discussing dark patterns. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
+description: This edition features guest Rachel Appel discussing dark patterns. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
-twitter:
-  card: summary_large_image
-  site: "@LaylaCodesIt"
-  creator: "@LaylaCodesIt"
-  image: "/images/3.jpg" 
+images:
+- /images/3.jpg
 ---
 
 ## Welcome back 👋

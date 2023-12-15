@@ -8,13 +8,10 @@ image:
   alt: "A black and white portrait of Irina"
 card: "image"
 comments: false
-summary: The second edition with guest Irina Scurtu, includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch. 
+description: The second edition with guest Irina Scurtu, includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch. 
 type: newsletter
-twitter:
-  card: summary_large_image
-  site: "@LaylaCodesIt"
-  creator: "@LaylaCodesIt"
-  image: "/images/2.jpg" 
+images:
+- /images/2.jpg
 ---
 
 ## Welcome back 👋

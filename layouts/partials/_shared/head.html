@@ -1,34 +1,7 @@
 <head>
+	{{ template "_internal/twitter_cards.html" . }}
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	
-	
-	{{ with .Params.twitter }}
-	  {{ with .card }}
-		<meta name="twitter:card" content="{{ . }}">
-	  {{ end }}
-	  {{ with .site }}
-		<meta name="twitter:site" content="{{ . }}">
-	  {{ end }}
-	  {{ with .creator }}
-		<meta name="twitter:creator" content="{{ . }}">
-	  {{ end }}
-	  {{ with .image }}
-		<meta name="twitter:image" content="{{ . | absURL }}">
-	  {{ end }}
-	  {{ with .title }}
-		<meta name="twitter:title" content="{{ . | htmlEscape}}">
-		<meta property="og:title" content="{{ . | htmlEscape}}">
-		<meta name="twitter:text:title" content="{{ . | htmlEscape}}">
-	  {{ else }}
-		{{ with .Title }}
-		  <meta name="twitter:title" content="{{ . | htmlEscape}}">
-		  <meta property="og:title" content="{{ . | htmlEscape}}">
-		  <meta name="twitter:text:title" content="{{ . | htmlEscape}}">
-		{{ end }}
-	  {{ end }}
-	{{ end }}
 
 
 	{{ hugo.Generator }}

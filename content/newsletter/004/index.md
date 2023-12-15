@@ -8,13 +8,11 @@ image:
   alt: "A portrait photograph of Brandon smiling."
 card: "image"
 comments: false
-summary: This edition features guest Brandon Minnick. Brandon talks about how we should do better as a community. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
+description: This edition features guest Brandon Minnick. Brandon talks about how we should do better as a community. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
-twitter:
-  card: summary_large_image
-  site: "@LaylaCodesIt"
-  creator: "@LaylaCodesIt"
-  image: "/images/4.jpg" 
+images:
+- /images/4.jpg
+
 ---
 
 ## Welcome back 👋
