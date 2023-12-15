@@ -1,6 +1,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{{ with .Params.twitter }}
+	{{ with .card }}
+	  <meta name="twitter:card" content="{{ . }}">
+	{{ end }}
+	{{ with .site.twitter }}
+	  <meta name="twitter:site" content="{{ . }}">
+	{{ end }}
+	{{ with .image }}
+	  <meta name="twitter:image" content="{{ . | absURL }}">
+	{{ end }}
+  {{ end }}
+  
 	{{ hugo.Generator }}
 	<!-- {{ with .Site.Params.logo }}
 	<link rel="icon" href="{{ . | urlize | relURL }}">

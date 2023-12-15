@@ -10,6 +10,10 @@ card: "image"
 comments: false
 summary: The inaugural edition includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch. 
 type: newsletter
+twitter:
+  card: summary_large_image
+  site: "@LaylaCodesIt"
+  image: "/images/1.jpg" 
 ---
 
 ## Welcome 🎉!
