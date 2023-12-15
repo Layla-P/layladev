@@ -10,14 +10,8 @@ card: "image"
 comments: false
 description: This edition features guest Luce Carter. Luce talks about how she uses AI to help in apps that help her with day-to-day activities. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
-twImage: "images/5.jpeg"
-twitter:
-  card: summary_large_image
-  site: "@LaylaCodesIt"
-  creator: "@LaylaCodesIt"
-  image: "/images/5.jpg" 
 images:
-- [images/5.jpeg]
+- images/5.jpeg
 
 ---
 

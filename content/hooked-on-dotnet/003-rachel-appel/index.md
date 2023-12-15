@@ -11,7 +11,7 @@ comments: false
 description: This edition features guest Rachel Appel discussing dark patterns. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
 images:
-- /images/3.jpg
+- images/3.jpg
 ---
 
 ## Welcome back 👋

@@ -11,7 +11,7 @@ comments: false
 description: This edition features guest Brandon Minnick. Brandon talks about how we should do better as a community. Includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch.
 type: newsletter
 images:
-- /images/4.jpg
+- images/4.jpg
 
 ---
 

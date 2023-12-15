@@ -11,7 +11,7 @@ comments: false
 description: The inaugural edition includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch. 
 type: newsletter
 images:
-- /images/1.jpg
+- images/1.jpg
 ---
 
 ## Welcome 🎉!

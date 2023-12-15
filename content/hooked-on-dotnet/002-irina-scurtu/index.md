@@ -11,7 +11,7 @@ comments: false
 description: The second edition with guest Irina Scurtu, includes suggestions for the latest blogs to read, podcasts to listen to and videos to watch. 
 type: newsletter
 images:
-- /images/2.jpg
+- images/2.jpg
 ---
 
 ## Welcome back 👋
