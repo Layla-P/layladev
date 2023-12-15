@@ -10,23 +10,19 @@ title = 'LaylaCodesIt'
 min_version = "0.67.3 Extended"
 
 
-[params.twitter]
-    site = "@LaylaCodesIt"
-    creator = "@LaylaCodesIt"
-
 
   [[params.navlinks]]
-  name = "Newsletter"
-  url = "newsletter/"
+    name = "Newsletter"
+    url = "newsletter/"
 
   [[params.navlinks]]
-  name = "Workshops"
-  url = "workshops/"
+    name = "Workshops"
+    url = "workshops/"
 
-    [[params.navlinks]]
-  name = "Talks"
-  url = "talks/"
+  [[params.navlinks]]
+    name = "Talks"
+    url = "talks/"
 
-   [[params.navlinks]]
-  name = "Contact"
-  url = "contact/"
+  [[params.navlinks]]
+    name = "Contact"
+    url = "contact/"
