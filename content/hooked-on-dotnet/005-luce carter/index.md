@@ -17,7 +17,7 @@ twitter:
   creator: "@LaylaCodesIt"
   image: "/images/5.jpg" 
 images:
-- images/5.jpeg
+- [images/5.jpeg]
 
 ---
 

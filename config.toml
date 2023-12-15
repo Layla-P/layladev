@@ -16,6 +16,7 @@ min_version = "0.67.3 Extended"
 
     [params.social]
     twitter = 'LaylaCodesIt'
+    images = ['images/youtube.png']
 
   [[params.navlinks]]
     name = "Newsletter"
