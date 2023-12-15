@@ -19,7 +19,7 @@ min_version = "0.67.3 Extended"
 
   [[params.navlinks]]
     name = "Newsletter"
-    url = "newsletter/"
+    url = "hooked-on-dotnet/"
 
   [[params.navlinks]]
     name = "Workshops"
