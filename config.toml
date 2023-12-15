@@ -12,6 +12,7 @@ min_version = "0.67.3 Extended"
 [params]
   description = "Layla's personal site wand the home of the Hooked on .NET newsletter."
   images = ["images/youtube.png"]
+  newsletter = "/:section/:slug/"
 
     [params.social]
     twitter = 'LaylaCodesIt'
