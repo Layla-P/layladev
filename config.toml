@@ -31,5 +31,13 @@ min_version = "0.67.3 Extended"
     url = "talks/"
 
   [[params.navlinks]]
+    name = "Appearances"
+    url = "appearances/"
+
+  [[params.navlinks]]
+    name = "Guest"
+    url = "guest/"
+
+  [[params.navlinks]]
     name = "Contact"
     url = "contact/"

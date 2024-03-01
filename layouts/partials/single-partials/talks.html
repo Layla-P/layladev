@@ -1,7 +1,6 @@
 <div class="main-content">
 
-    <div class="w-full m-0 p-0 bg-cover bg-center" style="background-image:url('{{ relURL "images/update-3.jpg"}}');
-        height: 60vh; max-height:560px; width: 100%;">
+    <div class="w-full m-0 p-0 bg-cover bg-center" style="background-image:url('{{ relURL "images/ndc-lon-23.jpg"}}'); height: 60vh; max-height:560px; width: 100%;">
         <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
 
         </div>
@@ -11,19 +10,19 @@
 
         <!--Lead Card-->
         <div class="mx-0">
-    
+
             <div class="bg-white w-full p-8 md:p-16 leading-normal newsletter">
                 <h1 class="w-full font-bold text-xl px-6">Talks</h1>
                 <p class="text-center">
-                    I am available to speak at diverse and inclusive events and conferences. 
+                    I am available to speak at diverse and inclusive events and conferences.
                 </p>
                 <p class="text-center">
-                    Below is a list of my currently available abstracts, followed by upcoming events.
+                    Below is a list of my currently available abstracts.
                 </p>
             </div>
         </div>
         <!--/Lead Card-->
-    
+
         <!--Posts Container-->
         <div class="flex flex-wrap justify-between pt-12 -mx-6">
 
@@ -35,15 +34,19 @@
                         <h2 class="w-full p-6">Layla's Bio
                         </h2>
                         <p class="text-gray-800text-base px-6 mb-5">
-                            Layla is a Developer Advocate serving the .NET community. She creates videos for YouTube predominantly on .NET but you'll find other topics, such as devrel and tech covered too. She is a 5 times Microsoft MVP, 3 times GitHub Star, and the founder of the #WomenOfDotNet Initiative. Layla loves sharing knowledge whilst having fun. No question is stupid and beginners are always welcome.
+                            Layla is a Developer Advocate serving the .NET community. She creates videos for YouTube
+                            predominantly on .NET but you'll find other topics, such as devrel and tech covered too. She
+                            is a 5 times Microsoft MVP, 3 times GitHub Star, and the founder of the #WomenOfDotNet
+                            Initiative. Layla loves sharing knowledge whilst having fun. No question is stupid and
+                            beginners are always welcome.
                         </p>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    {{ range site.Data.abstracts.definitions}}  
-  
+            {{ range site.Data.abstracts.definitions}}
+
 
             <!--1/3 col -->
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -58,10 +61,8 @@
                     </div>
                 </div>
             </div>
-        
-  {{end}}  
-</div>
 
-{{ partial "partials/single-partials/appearances.html" site.Data.appearances }}
-        
+            {{end}}
         </div>
+    </div>
+</div>

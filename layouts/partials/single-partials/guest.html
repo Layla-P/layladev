@@ -1,0 +1,29 @@
+<div class="main-content">
+
+    <div class="w-full m-0 p-0 bg-cover bg-center" style="background-image:url('{{ relURL "images/selfie-ro.jpg"}}'); height: 60vh; max-height:560px; width: 100%;">
+        <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+
+        </div>
+    </div>
+
+    <div class="container px-4 md:px-0 max-w-6xl mx-auto md:-mt-32 -mt-16">
+
+        <!--Lead Card-->
+        <div class="mx-0">
+
+            <div class="bg-white w-full p-8 md:p-16 leading-normal newsletter">
+                <h1 class="w-full font-bold text-xl px-6">Guest appearances</h1>
+                <p class="text-center">
+                    I have had the delight of appearing on many shows and podcasts, below is a list of them, if I've missed one, let me know!
+                </p>
+            </div>
+        </div>
+        <!--/Lead Card-->
+
+        <!--Posts Container-->
+        <div class="flex flex-wrap justify-between pt-12 -mx-6">
+            {{ partial "partials/single-partials/guest-appearances.html" site.Data.guesting }}
+        </div>
+    </div>
+
+</div>

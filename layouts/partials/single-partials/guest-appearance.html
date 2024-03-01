@@ -3,22 +3,17 @@
 {{ $bg := "bg-white" }}
 {{ $textColor := "text-gray-800" }}
 
-{{ if $t.Before now }}
-    {{ $bg = "bg-fp-blush" }}
-    {{ $textColor = "text-white"}}
-{{ end }}
+
 
 <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
     <div class="flex-1 {{ $bg }} rounded overflow-hidden shadow-md transition-transform transform hover:shadow-lg hover:scale-105">
         <a href="{{ .url }}"  target="_blank" class="flex flex-wrap no-underline hover:no-underline">
-             <h2 class="w-full p-6 {{$textColor}}">{{.name}}</h2>
-            <p class="w-full {{$textColor}} text-xs md:text-sm px-6">{{time.Format "January 2 2006" $t }}</p>
-            <p class="{{$textColor}} text-base px-6 mb-5">
-                {{.location}}
-            </p>
+            <div class="w-full mb-5" style="background-color:#CF8884"><h2 class="text-white">{{.name}}</h2></div>              
+            <p class="w-full {{$textColor}} text-xs md:text-sm px-6">{{time.Format "January 2 2006" $t }}</p>          
             <p class="{{$textColor}} text-base px-6 mb-5">
                 {{.details}}
             </p>
+            
         </a>
     </div>
 </div>

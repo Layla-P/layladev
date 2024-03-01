@@ -17,6 +17,14 @@
 
 {{ partial "partials/single-partials/talks.html" . }}
 
+{{else if eq .Params.type "upcoming" }}
+
+{{ partial "partials/single-partials/appearances.html" . }}
+
+{{else if eq .Params.type "guest" }}
+
+{{ partial "partials/single-partials/guest.html" . }}
+
 {{else if eq .Params.type "workshops" }}
 
 {{ partial "partials/single-partials/workshops.html" . }}

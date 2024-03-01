@@ -1,0 +1,73 @@
+{
+    "title":"Guest Appearances",
+    "content": "",
+    "style": "items style1 onscroll-fade-in small",
+    "events":[ 
+      
+        {
+            "name": ".NET Rocks",
+            "date": "2023-07-27",
+            "url": "https://www.dotnetrocks.com/details/1856",
+            "details":"Episode 1856 - Modular Monoliths",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": ".NET Rocks",
+            "date": "2020-10-22",
+            "url": "https://www.dotnetrocks.com/details/1710",
+            "details":"Episode 1710 - The .NET Foundation Evolves",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": ".NET Rocks",
+            "date": "2019-04-11",
+            "url": "https://www.dotnetrocks.com/details/1630",
+            "details":"Episode 1630 -Visual Studio Templates",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": "The Hanselminutes podcast",
+            "date": "2024-01-18",
+            "url": "https://hanselminutes.com/928/aspnet-basics-for-experts-with-layla-porter",
+            "details":"Show 928 - ASP.NET Basics for Experts",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": "DevJourney Podcast",
+            "date": "2021-07-18",
+            "url": "https://devjourney.info/Guests/163-LaylaPorter.html",
+            "details":"#163",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": "The Modern .NET Show",
+            "date": "2020-12-11",
+            "url": "https://dotnetcore.show/episode-66-tdd-and-the-terminator-with-layla-porter/",
+            "details":"Episode 66 - TDD and the Terminator With Layla Porter",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        },
+        {
+            "name": "Eat, Sleep, Code Podcast",
+            "date": "2022-05-20",
+            "url": "https://soundcloud.com/esc-podcast/layla-porter-and-women-of-net",
+            "details":"Layla Porter and Women of .NET",
+            "type": "podcast",
+            "style" : "style2 major fa-user-friends icon-purple",
+            "badge" :"badge-purple"
+        }
+        
+             ]
+
+}

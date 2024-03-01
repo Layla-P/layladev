@@ -1,57 +1,32 @@
-{{ $events := slice }}
-{{ range .events }}
-{{ $event := . }}
-{{ $parsedEvent := dict }}
-{{ range $k, $v := $event }}
-{{ if eq $k "date" }}
-{{ $parsedEvent = merge $parsedEvent (dict $k (time $v)) }}
-{{ else }}
-{{ $parsedEvent = merge $parsedEvent (dict $k $v) }}
-{{ end }}
-{{ end }}
-{{ $events = $events | append $parsedEvent }}
-{{ end }}<!-- Items -->
+<div class="main-content">
 
-<div class="flex flex-wrap justify-between pt-12 -mx-6">
+    <div class="w-full m-0 p-0 bg-cover bg-center" style="background-image:url('{{ relURL "images/update-3.jpg"}}'); height: 60vh; max-height:560px; width: 100%;">
+        <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
 
-    <div class="w-full  p-6 flex flex-col flex-grow flex-shrink">
-        <div
-            class="flex-1 bg-white rounded  overflow-hidden shadow-md transition-transform transform hover:shadow-lg hover:scale-105">
-            <div class="flex flex-wrap ">
-                {{ with .title }}   <h1 class="w-full font-bold text-xl px-6"> Upcoming {{ . }} </h1>
-                </div>{{ end }}
-               
-            </a>
         </div>
     </div>
-   
 
-        <!-- {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }} -->
-                 
-            {{ range sort $events "date" "asc" }}            
+    <div class="container px-4 md:px-0 max-w-6xl mx-auto md:-mt-32 -mt-16">
 
-            {{ if (.date.After now) }}           
-            {{ partial "partials/single-partials/appearance.html" . }}
-            {{ end }}
-            {{end}}
-       
-      
-        
-        <div class="w-full  p-6 flex flex-col flex-grow flex-shrink">
-            <div
-                class="flex-1 bg-fp-blush rounded  overflow-hidden shadow-md transition-transform transform hover:shadow-lg hover:scale-105">
-                <div class="flex flex-wrap ">
-                    {{ with .title }}   <h1 class="w-full font-bold text-xl px-6 text-white"> Previous {{ . }} </h1>
-                    </div>{{ end }}
-                   
-                </a>
+        <!--Lead Card-->
+        <div class="mx-0">
+
+            <div class="bg-white w-full p-8 md:p-16 leading-normal newsletter">
+                <h1 class="w-full font-bold text-xl px-6">Upcoming events and appearances</h1>
+                <p class="text-center">
+                    Below is a list of my upcoming appearances, both in-person and virtually.
+                </p>
+                <p class="text-center">
+                   If you would like me to attend your conference, then please reach out via the <a href="{{ relURL "/contact"}}">contact form</a>.
+                </p>
             </div>
         </div>
-            {{ range sort $events "date" "desc" }}
+        <!--/Lead Card-->
 
-            {{ if (.date.Before now) }}
-            {{ partial "partials/single-partials/appearance.html" . }}
-            {{ end }}
-            {{end}}
-     
-            </div>
+        <!--Posts Container-->
+        <div class="flex flex-wrap justify-between pt-12 -mx-6">
+            {{ partial "partials/single-partials/events.html" site.Data.appearances }}
+        </div>
+    </div>
+
+</div>
