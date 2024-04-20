@@ -4,14 +4,14 @@ id: "006"
 date: "2024-04-20"
 publishdate: "2024-04-20"
 image: 
-  urlPath: "images/6.jpeg"
+  urlPath: "images/6.png"
   alt: "A portrait photograph of Gui."
 card: "image"
 comments: false
 description: This edition features guest Gui Ferreira. Gui talks about how he favours simplicity over complexity in software and why it's important.
 type: newsletter
 images:
-- images/6.jpeg
+- images/6.png
 
 ---
 
