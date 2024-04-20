@@ -73,9 +73,9 @@ In a moment when our industry is changing, we need to refocus. We need to get ba
 
 We need to get back to simplicity.
 
-** You can find Gui on the internet here:
+You can find Gui on the internet here:
 - [YouTube](https://www.youtube.com/@gui.ferreira) - congratulations for reaching 10,000 subscribers, Gui!
-- [guiferreira.me](https://guiferreira.me/) - for everything else Gui-related. **
+- [guiferreira.me](https://guiferreira.me/) - for everything else Gui-related.
 
 
 ### Gui's recommendations
