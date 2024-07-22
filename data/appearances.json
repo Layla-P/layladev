@@ -203,16 +203,38 @@
         "badge" :"badge-green"
     },
     {
-       "name": "DevConf",
-       "date": "2024-10-17",
-       "url": "https://devconf.pl/",
-       "location":"Łódź, Poland",
-       "details":"TBA",
+       "name": "Copenhagen Developers Conference",
+       "date": "2024-08-26",
+       "url": "https://cphdevfest.com/",
+       "location":"Copenhagen, Denmark",
+       "details":"Distribu-ready with the modular monolith and 2-day workshop",
        "appearances":["in-person"],
        "type": "in-person",
        "style" : "style2 major fa-user-friends icon-green",
        "badge" :"badge-green"
-   }
+   },
+   {
+      "name": "DevIntersection",
+      "date": "2024-09-11",
+      "url": "https://devintersection.com/?gad_source=1&gclid=CjwKCAjwhvi0BhA4EiwAX25uj9EWsItyCe80yQ9Qz30p-CWfoOuHkku-8V0wwiYYVX64ukZ_1JU2FRoCwikQAvD_BwE#!/speaker/Layla%20Porter/2776",
+      "location":"Las Vegas, NV, USA",
+      "details":"Distribu-ready with the modular monolith, Basics for Experts and 1-day workshop",
+      "appearances":["in-person"],
+      "type": "in-person",
+      "style" : "style2 major fa-user-friends icon-green",
+      "badge" :"badge-green"
+  },
+  {
+     "name": "NDC Porto",
+     "date": "2024-10-14",
+     "url": "https://ndcporto.com",
+     "location":"Porto, Portugal",
+     "details":"Distribu-ready with the modular monolith",
+     "appearances":["in-person"],
+     "type": "in-person",
+     "style" : "style2 major fa-user-friends icon-green",
+     "badge" :"badge-green"
+ }
              ]
 
 }
