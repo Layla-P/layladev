@@ -7,31 +7,31 @@
 
 {{ if eq .Params.type "newsletter" }}
 
-{{ partial "partials/single-partials/newsletter.html" . }}
+{{ partial "single-partials/newsletter.html" . }}
 
 {{else if eq .Params.type "about" }}
 
-{{ partial "partials/single-partials/about.html" . }}
+{{ partial "single-partials/about.html" . }}
 
 {{else if eq .Params.type "talks" }}
 
-{{ partial "partials/single-partials/talks.html" . }}
+{{ partial "single-partials/talks.html" . }}
 
 {{else if eq .Params.type "upcoming" }}
 
-{{ partial "partials/single-partials/appearances.html" . }}
+{{ partial "single-partials/appearances.html" . }}
 
 {{else if eq .Params.type "guest" }}
 
-{{ partial "partials/single-partials/guest.html" . }}
+{{ partial "single-partials/guest.html" . }}
 
 {{else if eq .Params.type "workshops" }}
 
-{{ partial "partials/single-partials/workshops.html" . }}
+{{ partial "single-partials/workshops.html" . }}
 
 {{else if eq .Params.type "contact" }}
 
-{{ partial "partials/_shared/contact.html" . }}
+{{ partial "_shared/contact.html" . }}
 
 {{ else }}
 <div class="">
